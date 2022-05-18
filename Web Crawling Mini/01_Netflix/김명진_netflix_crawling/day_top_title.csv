@@ -1,0 +1,366 @@
+,date,movie_title,tvshow_title
+0,2021-01-01,We Can Be Heroes,Bridgerton
+1,2021-01-02,We Can Be Heroes,Bridgerton
+2,2021-01-03,We Can Be Heroes,Bridgerton
+3,2021-01-04,We Can Be Heroes,Bridgerton
+4,2021-01-05,We Can Be Heroes,Bridgerton
+5,2021-01-06,We Can Be Heroes,Bridgerton
+6,2021-01-07,We Can Be Heroes,Bridgerton
+7,2021-01-08,Pieces of a Woman,Bridgerton
+8,2021-01-09,Pieces of a Woman,Bridgerton
+9,2021-01-10,Pieces of a Woman,Lupin
+10,2021-01-11,Pieces of a Woman,Lupin
+11,2021-01-12,Pieces of a Woman,Lupin
+12,2021-01-13,We Can Be Heroes,Lupin
+13,2021-01-14,We Can Be Heroes,Lupin
+14,2021-01-15,We Can Be Heroes,Lupin
+15,2021-01-16,Outside the Wire,Lupin
+16,2021-01-17,Outside the Wire,Lupin
+17,2021-01-18,Outside the Wire,Lupin
+18,2021-01-19,Outside the Wire,Lupin
+19,2021-01-20,Outside the Wire,Lupin
+20,2021-01-21,Outside the Wire,Lupin
+21,2021-01-22,Outside the Wire,Lupin
+22,2021-01-23,Outside the Wire,Fate: The Winx Saga
+23,2021-01-24,Outside the Wire,Fate: The Winx Saga
+24,2021-01-25,Outside the Wire,Fate: The Winx Saga
+25,2021-01-26,The White Tiger,Fate: The Winx Saga
+26,2021-01-27,The White Tiger,Fate: The Winx Saga
+27,2021-01-28,The White Tiger,Fate: The Winx Saga
+28,2021-01-29,The White Tiger,Fate: The Winx Saga
+29,2021-01-30,Below Zero,Fate: The Winx Saga
+30,2021-01-31,Below Zero,Fate: The Winx Saga
+31,2021-02-01,Below Zero,Fate: The Winx Saga
+32,2021-02-02,Below Zero,Fate: The Winx Saga
+33,2021-02-03,Below Zero,Bridgerton
+34,2021-02-04,Below Zero,Bridgerton
+35,2021-02-05,Finding 'Ohana,Firefly Lane
+36,2021-02-06,Space Sweepers,Firefly Lane
+37,2021-02-07,Space Sweepers,Firefly Lane
+38,2021-02-08,Space Sweepers,Firefly Lane
+39,2021-02-09,Space Sweepers,Firefly Lane
+40,2021-02-10,Space Sweepers,Firefly Lane
+41,2021-02-11,News of the World,Firefly Lane
+42,2021-02-12,News of the World,Crime Scene: The Vanishing at the Cecil Hotel
+43,2021-02-13,To All the Boys: Always and Forever,Crime Scene: The Vanishing at the Cecil Hotel
+44,2021-02-14,To All the Boys: Always and Forever,Crime Scene: The Vanishing at the Cecil Hotel
+45,2021-02-15,To All the Boys: Always and Forever,Crime Scene: The Vanishing at the Cecil Hotel
+46,2021-02-16,To All the Boys: Always and Forever,Crime Scene: The Vanishing at the Cecil Hotel
+47,2021-02-17,To All the Boys: Always and Forever,Firefly Lane
+48,2021-02-18,To All the Boys: Always and Forever,Behind Her Eyes
+49,2021-02-19,To All the Boys: Always and Forever,Behind Her Eyes
+50,2021-02-20,To All the Boys: Always and Forever,Behind Her Eyes
+51,2021-02-21,To All the Boys: Always and Forever,Behind Her Eyes
+52,2021-02-22,I Care a Lot,Behind Her Eyes
+53,2021-02-23,I Care a Lot,Behind Her Eyes
+54,2021-02-24,I Care a Lot,Behind Her Eyes
+55,2021-02-25,I Care a Lot,Behind Her Eyes
+56,2021-02-26,I Care a Lot,Behind Her Eyes
+57,2021-02-27,I Care a Lot,Behind Her Eyes
+58,2021-02-28,I Care a Lot,Ginny & Georgia
+59,2021-03-01,Crazy About Her,Ginny & Georgia
+60,2021-03-02,Crazy About Her,Ginny & Georgia
+61,2021-03-03,Crazy About Her,Ginny & Georgia
+62,2021-03-04,Moxie,Ginny & Georgia
+63,2021-03-05,Moxie,Ginny & Georgia
+64,2021-03-06,Sentinelle,Ginny & Georgia
+65,2021-03-07,Sentinelle,Ginny & Georgia
+66,2021-03-08,Sentinelle,Ginny & Georgia
+67,2021-03-09,Sentinelle,Ginny & Georgia
+68,2021-03-10,Sentinelle,Ginny & Georgia
+69,2021-03-11,Sentinelle,Ginny & Georgia
+70,2021-03-12,Sentinelle,Ginny & Georgia
+71,2021-03-13,Yes Day,Ginny & Georgia
+72,2021-03-14,Yes Day,Ginny & Georgia
+73,2021-03-15,Yes Day,Ginny & Georgia
+74,2021-03-16,Yes Day,Ginny & Georgia
+75,2021-03-17,Yes Day,Ginny & Georgia
+76,2021-03-18,Yes Day,Ginny & Georgia
+77,2021-03-19,Deadly Illusions,Ginny & Georgia
+78,2021-03-20,Deadly Illusions,Ginny & Georgia
+79,2021-03-21,Deadly Illusions,Ginny & Georgia
+80,2021-03-22,Deadly Illusions,Formula 1: Drive to Survive
+81,2021-03-23,Deadly Illusions,Ginny & Georgia
+82,2021-03-24,Deadly Illusions,Ginny & Georgia
+83,2021-03-25,Deadly Illusions,Ginny & Georgia
+84,2021-03-26,Deadly Illusions,Who Killed Sara?
+85,2021-03-27,Yes Day,Who Killed Sara?
+86,2021-03-28,Bad Trip,The Irregulars
+87,2021-03-29,Bad Trip,The Irregulars
+88,2021-03-30,Bad Trip,The Irregulars
+89,2021-03-31,Bad Trip,Who Killed Sara?
+90,2021-04-01,Secret Magic Control Agency,Who Killed Sara?
+91,2021-04-02,Secret Magic Control Agency,Who Killed Sara?
+92,2021-04-03,Sky High,Who Killed Sara?
+93,2021-04-04,Sky High,Who Killed Sara?
+94,2021-04-05,Sky High,Who Killed Sara?
+95,2021-04-06,Sky High,Who Killed Sara?
+96,2021-04-07,Blackhat,Who Killed Sara?
+97,2021-04-08,Blackhat,Who Killed Sara?
+98,2021-04-09,Blackhat,Who Killed Sara?
+99,2021-04-10,Thunder Force,Who Killed Sara?
+100,2021-04-11,Thunder Force,Who Killed Sara?
+101,2021-04-12,Thunder Force,Who Killed Sara?
+102,2021-04-13,Thunder Force,Who Killed Sara?
+103,2021-04-14,Thunder Force,Who Killed Sara?
+104,2021-04-15,Love and Monsters,Who Killed Sara?
+105,2021-04-16,Love and Monsters,The Serpent
+106,2021-04-17,Love and Monsters,The Serpent
+107,2021-04-18,Love and Monsters,The Serpent
+108,2021-04-19,Love and Monsters,The Serpent
+109,2021-04-20,Love and Monsters,The Serpent
+110,2021-04-21,Love and Monsters,The Serpent
+111,2021-04-22,Love and Monsters,The Serpent
+112,2021-04-23,Love and Monsters,The Serpent
+113,2021-04-24,Minions,Shadow and Bone
+114,2021-04-25,Minions,Shadow and Bone
+115,2021-04-26,Minions,Shadow and Bone
+116,2021-04-27,Minions,Shadow and Bone
+117,2021-04-28,Minions,Shadow and Bone
+118,2021-04-29,Minions,Shadow and Bone
+119,2021-04-30,Things Heard & Seen,Shadow and Bone
+120,2021-05-01,Things Heard & Seen,Shadow and Bone
+121,2021-05-02,Things Heard & Seen,Shadow and Bone
+122,2021-05-03,Things Heard & Seen,Shadow and Bone
+123,2021-05-04,The Mitchells vs. The Machines,Shadow and Bone
+124,2021-05-05,The Mitchells vs. The Machines,Shadow and Bone
+125,2021-05-06,The Mitchells vs. The Machines,Shadow and Bone
+126,2021-05-07,The Mitchells vs. The Machines,Shadow and Bone
+127,2021-05-08,The Mitchells vs. The Machines,Jupiter's Legacy
+128,2021-05-09,The Mitchells vs. The Machines,Jupiter's Legacy
+129,2021-05-10,The Mitchells vs. The Machines,Jupiter's Legacy
+130,2021-05-11,The Mitchells vs. The Machines,Jupiter's Legacy
+131,2021-05-12,The Mitchells vs. The Machines,Jupiter's Legacy
+132,2021-05-13,Oxygen,Jupiter's Legacy
+133,2021-05-14,Oxygen,Jupiter's Legacy
+134,2021-05-15,The Woman in the Window,Jupiter's Legacy
+135,2021-05-16,The Woman in the Window,Jupiter's Legacy
+136,2021-05-17,The Woman in the Window,"Love, Death & Robots"
+137,2021-05-18,The Woman in the Window,Jupiter's Legacy
+138,2021-05-19,The Woman in the Window,Jupiter's Legacy
+139,2021-05-20,The Woman in the Window,Who Killed Sara?
+140,2021-05-21,The Woman in the Window,Who Killed Sara?
+141,2021-05-22,Army of the Dead,Who Killed Sara?
+142,2021-05-23,Army of the Dead,Who Killed Sara?
+143,2021-05-24,Army of the Dead,Who Killed Sara?
+144,2021-05-25,Army of the Dead,Who Killed Sara?
+145,2021-05-26,Army of the Dead,Who Killed Sara?
+146,2021-05-27,Army of the Dead,Who Killed Sara?
+147,2021-05-28,Army of the Dead,Ragnarok
+148,2021-05-29,Army of the Dead,Lucifer
+149,2021-05-30,Army of the Dead,Lucifer
+150,2021-05-31,Army of the Dead,Lucifer
+151,2021-06-01,Army of the Dead,Lucifer
+152,2021-06-02,Army of the Dead,Lucifer
+153,2021-06-03,Army of the Dead,Lucifer
+154,2021-06-04,Army of the Dead,Lucifer
+155,2021-06-05,Xtreme,Lucifer
+156,2021-06-06,Xtreme,Sweet Tooth
+157,2021-06-07,Xtreme,Sweet Tooth
+158,2021-06-08,Xtreme,Sweet Tooth
+159,2021-06-09,Xtreme,Sweet Tooth
+160,2021-06-10,Awake,Sweet Tooth
+161,2021-06-11,Awake,Sweet Tooth
+162,2021-06-12,Awake,Lupin
+163,2021-06-13,Awake,Lupin
+164,2021-06-14,Awake,Lupin
+165,2021-06-15,Wish Dragon,Lupin
+166,2021-06-16,Wish Dragon,Lupin
+167,2021-06-17,Wish Dragon,Lupin
+168,2021-06-18,Wish Dragon,Lupin
+169,2021-06-19,Fatherhood,Lupin
+170,2021-06-20,Fatherhood,Elite
+171,2021-06-21,Fatherhood,Elite
+172,2021-06-22,Fatherhood,Elite
+173,2021-06-23,Fatherhood,Elite
+174,2021-06-24,Fatherhood,Elite
+175,2021-06-25,Fatherhood,Elite
+176,2021-06-26,Fatherhood,Sex/Life
+177,2021-06-27,Fatherhood,Sex/Life
+178,2021-06-28,Fatherhood,Sex/Life
+179,2021-06-29,Fatherhood,Sex/Life
+180,2021-06-30,Fatherhood,Sex/Life
+181,2021-07-01,Fatherhood,Sex/Life
+182,2021-07-02,Fatherhood,Sex/Life
+183,2021-07-03,Fatherhood,Sex/Life
+184,2021-07-04,Fear Street: 1994,Sex/Life
+185,2021-07-05,Fear Street: 1994,Sex/Life
+186,2021-07-06,Fear Street: 1994,Sex/Life
+187,2021-07-07,Fear Street: 1994,Sex/Life
+188,2021-07-08,Major Grom: Plague Doctor,Sex/Life
+189,2021-07-09,Major Grom: Plague Doctor,Sex/Life
+190,2021-07-10,Major Grom: Plague Doctor,Sex/Life
+191,2021-07-11,Major Grom: Plague Doctor,Sex/Life
+192,2021-07-12,Major Grom: Plague Doctor,Sex/Life
+193,2021-07-13,Major Grom: Plague Doctor,Sex/Life
+194,2021-07-14,Major Grom: Plague Doctor,Sex/Life
+195,2021-07-15,Major Grom: Plague Doctor,Sex/Life
+196,2021-07-16,Major Grom: Plague Doctor,Never Have I Ever
+197,2021-07-17,Fear Street: 1666,Never Have I Ever
+198,2021-07-18,Fear Street: 1666,Never Have I Ever
+199,2021-07-19,Fear Street: 1666,Never Have I Ever
+200,2021-07-20,Fear Street: 1666,Never Have I Ever
+201,2021-07-21,Fear Street: 1666,Never Have I Ever
+202,2021-07-22,Trollhunters: Rise of the Titans,Never Have I Ever
+203,2021-07-23,Trollhunters: Rise of the Titans,Never Have I Ever
+204,2021-07-24,Blood Red Sky,Never Have I Ever
+205,2021-07-25,Blood Red Sky,Sex/Life
+206,2021-07-26,Blood Red Sky,Sex/Life
+207,2021-07-27,Blood Red Sky,Sex/Life
+208,2021-07-28,Blood Red Sky,Sex/Life
+209,2021-07-29,Blood Red Sky,Sex/Life
+210,2021-07-30,Blood Red Sky,Sex/Life
+211,2021-07-31,Blood Red Sky,Outer Banks
+212,2021-08-01,The Last Mercenary,Outer Banks
+213,2021-08-02,The Last Mercenary,Outer Banks
+214,2021-08-03,The Last Mercenary,Outer Banks
+215,2021-08-04,The Last Mercenary,Outer Banks
+216,2021-08-05,The Last Mercenary,Outer Banks
+217,2021-08-06,The Last Mercenary,Outer Banks
+218,2021-08-07,The Last Mercenary,Outer Banks
+219,2021-08-08,Vivo,Hit & Run
+220,2021-08-09,Vivo,Hit & Run
+221,2021-08-10,Vivo,Hit & Run
+222,2021-08-11,Vivo,Hit & Run
+223,2021-08-12,The Kissing Booth 3,Hit & Run
+224,2021-08-13,The Kissing Booth 3,Hit & Run
+225,2021-08-14,The Kissing Booth 3,Hit & Run
+226,2021-08-15,The Kissing Booth 3,Hit & Run
+227,2021-08-16,The Kissing Booth 3,Hit & Run
+228,2021-08-17,The Kissing Booth 3,Hit & Run
+229,2021-08-18,The Kissing Booth 3,Hit & Run
+230,2021-08-19,The Kissing Booth 3,Hit & Run
+231,2021-08-20,The Kissing Booth 3,Hit & Run
+232,2021-08-21,Sweet Girl,Hit & Run
+233,2021-08-22,Sweet Girl,Hit & Run
+234,2021-08-23,Sweet Girl,The Chair
+235,2021-08-24,Sweet Girl,The Good Doctor
+236,2021-08-25,Sweet Girl,The Good Doctor
+237,2021-08-26,Sweet Girl,The Good Doctor
+238,2021-08-27,Sweet Girl,Clickbait
+239,2021-08-28,He's All That,Clickbait
+240,2021-08-29,He's All That,Clickbait
+241,2021-08-30,He's All That,Clickbait
+242,2021-08-31,He's All That,Clickbait
+243,2021-09-01,He's All That,Clickbait
+244,2021-09-02,He's All That,Clickbait
+245,2021-09-03,He's All That,Clickbait
+246,2021-09-04,Afterlife of the Party,Money Heist
+247,2021-09-05,Afterlife of the Party,Money Heist
+248,2021-09-06,Afterlife of the Party,Money Heist
+249,2021-09-07,Afterlife of the Party,Money Heist
+250,2021-09-08,Afterlife of the Party,Money Heist
+251,2021-09-09,Afterlife of the Party,Money Heist
+252,2021-09-10,Afterlife of the Party,Money Heist
+253,2021-09-11,Kate,Money Heist
+254,2021-09-12,Kate,Lucifer
+255,2021-09-13,Kate,Lucifer
+256,2021-09-14,Kate,Lucifer
+257,2021-09-15,Kate,Lucifer
+258,2021-09-16,Kate,Lucifer
+259,2021-09-17,Kate,Lucifer
+260,2021-09-18,Kate,Sex Education
+261,2021-09-19,Kate,Sex Education
+262,2021-09-20,Kate,Sex Education
+263,2021-09-21,The Stronghold,Sex Education
+264,2021-09-22,The Father Who Moves Mountains,Sex Education
+265,2021-09-23,Intrusion,Squid Game
+266,2021-09-24,Intrusion,Squid Game
+267,2021-09-25,Intrusion,Squid Game
+268,2021-09-26,Intrusion,Squid Game
+269,2021-09-27,Intrusion,Squid Game
+270,2021-09-28,Intrusion,Squid Game
+271,2021-09-29,My Little Pony: A New Generation,Squid Game
+272,2021-09-30,No One Gets Out Alive,Squid Game
+273,2021-10-01,No One Gets Out Alive,Squid Game
+274,2021-10-02,The Guilty,Squid Game
+275,2021-10-03,The Guilty,Squid Game
+276,2021-10-04,The Guilty,Squid Game
+277,2021-10-05,The Guilty,Squid Game
+278,2021-10-06,The Guilty,Squid Game
+279,2021-10-07,The Guilty,Squid Game
+280,2021-10-08,The Guilty,Squid Game
+281,2021-10-09,The Guilty,Squid Game
+282,2021-10-10,The Guilty,Squid Game
+283,2021-10-11,The Guilty,Squid Game
+284,2021-10-12,The Guilty,Squid Game
+285,2021-10-13,The Guilty,Squid Game
+286,2021-10-14,The Guilty,Squid Game
+287,2021-10-15,The Guilty,Squid Game
+288,2021-10-16,The Forgotten Battle,Squid Game
+289,2021-10-17,The Forgotten Battle,Squid Game
+290,2021-10-18,The Forgotten Battle,Squid Game
+291,2021-10-19,The Forgotten Battle,Squid Game
+292,2021-10-20,The Forgotten Battle,Squid Game
+293,2021-10-21,The Forgotten Battle,Squid Game
+294,2021-10-22,Night Teeth,Squid Game
+295,2021-10-23,Night Teeth,Squid Game
+296,2021-10-24,Night Teeth,Squid Game
+297,2021-10-25,Night Teeth,Squid Game
+298,2021-10-26,Night Teeth,Squid Game
+299,2021-10-27,Night Teeth,Squid Game
+300,2021-10-28,Hypnotic,Squid Game
+301,2021-10-29,Hypnotic,Squid Game
+302,2021-10-30,Army of Thieves,Squid Game
+303,2021-10-31,Army of Thieves,Squid Game
+304,2021-11-01,Army of Thieves,Squid Game
+305,2021-11-02,Army of Thieves,Squid Game
+306,2021-11-03,Army of Thieves,Squid Game
+307,2021-11-04,Army of Thieves,Squid Game
+308,2021-11-05,Army of Thieves,Squid Game
+309,2021-11-06,Army of Thieves,Squid Game
+310,2021-11-07,Love Hard,Squid Game
+311,2021-11-08,Love Hard,Arcane
+312,2021-11-09,Love Hard,Arcane
+313,2021-11-10,Love Hard,Squid Game
+314,2021-11-11,Love Hard,Squid Game
+315,2021-11-12,Love Hard,Squid Game
+316,2021-11-13,Red Notice,Squid Game
+317,2021-11-14,Red Notice,Arcane
+318,2021-11-15,Red Notice,Arcane
+319,2021-11-16,Red Notice,Arcane
+320,2021-11-17,Red Notice,Squid Game
+321,2021-11-18,Red Notice,Squid Game
+322,2021-11-19,Red Notice,Squid Game
+323,2021-11-20,Red Notice,Hellbound
+324,2021-11-21,Red Notice,Arcane
+325,2021-11-22,Red Notice,Hellbound
+326,2021-11-23,Red Notice,Hellbound
+327,2021-11-24,Red Notice,Hellbound
+328,2021-11-25,Red Notice,Hellbound
+329,2021-11-26,Red Notice,Hellbound
+330,2021-11-27,Red Notice,Hellbound
+331,2021-11-28,Red Notice,Hellbound
+332,2021-11-29,Red Notice,Hellbound
+333,2021-11-30,Red Notice,Hellbound
+334,2021-12-01,A Castle for Christmas,Hellbound
+335,2021-12-02,Red Notice,Lost in Space
+336,2021-12-03,The Power of the Dog,Lost in Space
+337,2021-12-04,Red Notice,Money Heist
+338,2021-12-05,Red Notice,Money Heist
+339,2021-12-06,Red Notice,Money Heist
+340,2021-12-07,Red Notice,Money Heist
+341,2021-12-08,Red Notice,Money Heist
+342,2021-12-09,Red Notice,Money Heist
+343,2021-12-10,Red Notice,Money Heist
+344,2021-12-11,The Unforgivable,Money Heist
+345,2021-12-12,The Unforgivable,Money Heist
+346,2021-12-13,The Unforgivable,Money Heist
+347,2021-12-14,The Unforgivable,Money Heist
+348,2021-12-15,The Unforgivable,Money Heist
+349,2021-12-16,The Unforgivable,Money Heist
+350,2021-12-17,The Unforgivable,Money Heist
+351,2021-12-18,The Unforgivable,The Witcher
+352,2021-12-19,The Unforgivable,The Witcher
+353,2021-12-20,The Unforgivable,The Witcher
+354,2021-12-21,The Unforgivable,The Witcher
+355,2021-12-22,The Unforgivable,The Witcher
+356,2021-12-23,Back to the Outback,The Witcher
+357,2021-12-24,Spider-Man: Homecoming,Emily in Paris
+358,2021-12-25,Don't Look Up,Emily in Paris
+359,2021-12-26,Don't Look Up,Emily in Paris
+360,2021-12-27,Don't Look Up,Emily in Paris
+361,2021-12-28,Don't Look Up,Emily in Paris
+362,2021-12-29,Don't Look Up,Emily in Paris
+363,2021-12-30,Don't Look Up,Emily in Paris
+364,2021-12-31,Don't Look Up,Emily in Paris

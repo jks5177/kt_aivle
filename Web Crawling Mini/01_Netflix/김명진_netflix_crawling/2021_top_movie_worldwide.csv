@@ -1,0 +1,177 @@
+rank,title,original,point,countires,country_ratio,days,day_ratio,total,genre,country_name,premier,imdb,rotten
+1,Red Notice,yes,"25,918",90,288,48,540,"25,918",Action,United States,11/12/2021,6.5,39%
+2,We Can Be Heroes,yes,"25,311",82,309,214,118,"25,311",Adventure,United States,12/25/2020,4.9,
+3,Army of the Dead,yes,"18,888",89,212,92,205,"18,888",Action,United States,05/14/2021,6.3,69%
+4,Wish Dragon,yes,"16,953",82,207,88,193,"16,953",Animated,China,06/11/2021,,
+5,Army of Thieves,yes,"15,081",90,168,52,290,"15,081",Action,Germany,10/29/2021,6.4,70%
+6,The Mitchells vs. The Machines,yes,"14,902",82,182,74,201,"14,902",Animated,United States,04/30/2021,8.4,98%
+7,Fatherhood,yes,"14,660",82,179,54,271,"14,660",Comedy,United States,06/18/2021,6.8,71%
+8,The Unforgivable,yes,"13,458",89,151,20,673,"13,458",Drama,United States,12/10/2021,7.2,
+9,The Guilty,yes,"12,930",83,156,43,301,"12,930",Crime,United States,10/01/2021,6.3,70%
+10,Yes Day,yes,"12,809",81,158,66,194,"12,809",Comedy,United States,03/12/2021,,
+11,Love Hard,yes,"11,782",90,131,50,236,"11,782",Comedy,United States,11/05/2021,,45%
+12,Outside the Wire,yes,"11,661",82,142,45,259,"11,661",Science Fiction,United States,01/15/2021,5.3,37%
+13,Love and Monsters,no,"11,582",81,143,33,351,"11,582",Adventure,Canada,04/14/2021,7,93%
+14,Kate,yes,"11,224",83,135,50,224,"11,224",Action,United States,09/10/2021,6.3,41%
+15,Vivo,yes,"11,037",79,140,58,190,"11,037",Animated,United States,07/30/2021,6.8,90%
+16,Minions,no,"10,972",78,141,132,83,"10,972",Animated,United States,06/17/2015,6.4,56%
+17,Back to the Outback,yes,"10,555",88,120,20,528,"10,555",Animated,United States,12/10/2021,6.7,
+18,He's All That,yes,"10,222",83,123,35,292,"10,222",Comedy,United States,08/27/2021,4.4,30%
+19,Sweet Girl,yes,"10,051",82,123,32,314,"10,051",Action,United States,08/20/2021,5.5,18%
+20,Blood Red Sky,yes,"9,757",82,119,31,315,"9,757",Thriller,United States,07/23/2021,6,
+21,Major Grom: Plague Doctor,no,"9,642",80,121,98,98,"9,642",Action,Russia,04/01/2021,6.4,
+22,My Little Pony: A New Generation,yes,"9,615",81,119,41,235,"9,615",Animated,United States,09/24/2021,7.3,100%
+23,The Forgotten Battle,yes,"9,321",83,112,24,388,"9,321",War,Netherlands,10/15/2021,7.2,
+24,The Kissing Booth 3,yes,"9,219",82,112,28,329,"9,219",Comedy,United States,08/11/2021,5.1,13%
+25,To All the Boys: Always and Forever,yes,"9,058",83,109,24,377,"9,058",Romance,United States,02/12/2021,6.5,
+26,Fast & Furious Presents: Hobbs & Shaw,no,"8,994",73,123,257,35,"8,994",Action,United States,08/01/2019,6,
+27,Thunder Force,yes,"8,842",82,108,35,253,"8,842",Comedy,United States,04/09/2021,4.2,
+28,I Care a Lot,yes,"8,610",54,159,41,210,"8,610",Thriller,United States,02/19/2021,6.4,
+29,The Woman in the Window,yes,"8,547",82,104,33,259,"8,547",Thriller,United States,05/14/2021,5.8,21%
+30,365 Days,no,"8,488",60,141,313,27,"8,488",Romance,Poland,06/07/2020,3.5,
+31,The Harder They Fall,yes,"8,433",89,95,28,301,"8,433",Western,United States,11/03/2021,6,86%
+32,Afterlife of the Party,yes,"8,172",80,102,27,303,"8,172",Comedy,United States,09/02/2021,5.9,60%
+33,The Secret Life of Pets 2,no,"8,161",54,151,322,25,"8,161",Animated,United States,05/24/2019,6.5,57%
+34,The Last Mercenary,yes,"8,132",82,99,26,313,"8,132",Action,France,07/30/2021,,
+35,A Boy Called Christmas,yes,"8,084",75,108,36,225,"8,084",Comedy,United Kingdom,11/26/2021,6.8,86%
+36,Finding 'Ohana,yes,"7,939",81,98,49,162,"7,939",Adventure,United States,01/29/2021,6.1,
+37,Night Teeth,yes,"7,824",88,89,22,356,"7,824",Horror,United States,10/20/2021,5.6,36%
+38,Fifty Shades of Grey,no,"7,760",75,103,113,69,"7,760",Romance,United States,02/11/2015,4.2,25%
+39,Resort to Love,yes,"7,711",79,98,33,234,"7,711",Comedy,United States,07/29/2021,,
+40,News of the World,yes,"7,600",80,95,29,262,"7,600",Western,United States,02/10/2021,6.8,88%
+41,Gemini Man,no,"7,497",53,141,211,36,"7,497",Science Fiction,United States,10/02/2019,,30%
+42,Things Heard & Seen,yes,"7,396",82,90,29,255,"7,396",Horror,United States,04/29/2021,,45%
+43,Spider-Man: Homecoming,no,"7,338",75,98,130,56,"7,338",Superhero,United States,07/05/2017,7.5,
+44,Awake,yes,"7,217",81,89,24,301,"7,217",Science Fiction,United States,06/09/2021,4.9,25%
+45,Venom,no,"6,928",44,157,183,38,"6,928",Superhero,United States,10/03/2018,7.1,29%
+46,Deadly Illusions,no,"6,900",82,84,18,383,"6,900",Thriller,United States,03/18/2021,3.6,
+47,Below Zero,yes,"6,828",82,83,31,220,"6,828",Thriller,Spain,01/29/2021,6.3,
+48,The White Tiger,yes,"6,755",80,84,73,93,"6,755",Crime,India,01/22/2021,6.5,
+49,SAS: Red Notice,no,"6,709",64,105,32,210,"6,709",Action,United Kingdom,08/11/2021,5,
+50,Fear Street: 1994,yes,"6,653",80,83,31,215,"6,653",Horror,United States,06/28/2021,6.2,84%
+51,Spoiled Brats,yes,"6,447",72,90,22,293,"6,447",Comedy,France,09/15/2021,5.8,
+52,Bruised,yes,"6,325",86,74,28,226,"6,325",Drama,United States,11/24/2021,5.6,63%
+53,Sentinelle,yes,"6,230",83,75,21,297,"6,230",Action,France,03/05/2021,,
+54,Hotel Transylvania 3: Summer Vacation,no,"6,219",51,122,188,33,"6,219",Animated,United States,07/12/2018,6.5,60%
+55,The Dig,yes,"6,172",82,75,25,247,"6,172",Drama,United Kingdom,01/29/2021,7,85%
+56,Moxie,yes,"6,062",81,75,24,253,"6,062",Comedy,United States,03/03/2021,6.5,
+57,Intrusion,yes,"6,045",83,73,17,356,"6,045",Thriller,United States,09/22/2021,5.2,44%
+58,Sonic the Hedgehog,no,"6,015",54,111,202,30,"6,015",Adventure,United States,02/13/2020,6.9,63%
+59,A Castle for Christmas,yes,"5,948",87,68,24,248,"5,948",Romance,United States,11/26/2021,5.6,
+60,Pieces of a Woman,yes,"5,908",79,75,21,281,"5,908",Drama,United States,01/07/2021,6.9,77%
+61,Man on Fire,no,"5,724",72,80,20,286,"5,724",Action,United States,04/23/2004,7.7,
+62,Space Sweepers,yes,"5,662",81,70,64,88,"5,662",Science Fiction,South Korea,02/05/2021,6.8,
+63,Paper Lives,yes,"5,647",62,91,44,128,"5,647",Drama,Turkey,03/12/2021,,
+64,Spider-Man: Far from Home,no,"5,640",42,134,170,33,"5,640",Superhero,United States,06/28/2019,8,
+65,Secret Magic Control Agency,yes,"5,607",77,73,32,175,"5,607",Animated,Russia,03/18/2021,6.2,
+66,Xtreme,yes,"5,488",82,67,27,203,"5,488",Thriller,Spain,06/04/2021,6,
+67,Chernobyl: Abyss,no,"5,405",48,113,58,93,"5,405",04/15/2021,Russia,04/15/2021,4.6,
+68,Hypnotic,yes,"5,392",89,61,18,300,"5,392",Thriller,United States,10/27/2021,5.2,50%
+69,Beckett,yes,"5,363",82,65,18,298,"5,363",Thriller,United States,08/13/2021,7.3,57%
+70,Blackhat,no,"5,360",60,89,33,162,"5,360",Thriller,United States,01/16/2015,5.4,34%
+71,Central Intelligence,no,"5,344",81,66,18,297,"5,344",Action,United States,06/15/2016,6.4,69%
+72,Don't Look Up,yes,"5,313",89,60,6,886,"5,313",Comedy,United States,12/24/2021,7.4,
+73,The Loud House Movie,yes,"5,299",75,71,40,132,"5,299",Animated,United States,08/20/2021,6.7,
+74,The Grinch,no,"5,247",58,90,209,25,"5,247",Animated,United States,11/08/2018,6.3,60%
+75,The Last Letter from Your Lover,yes,"5,142",69,75,27,190,"5,142",Drama,Canada,07/30/2021,,59%
+76,Penguins of Madagascar,no,"5,077",69,74,47,108,"5,077",Animated,United States,11/26/2014,6.7,72%
+77,Schumacher,yes,"5,041",67,75,23,219,"5,041",Documentary,Germany,09/15/2021,7.7,
+78,The Princess Switch 3: Romancing The Star,yes,"5,031",89,57,21,240,"5,031",Romance,United States,11/18/2021,,
+79,Stowaway,yes,"4,955",61,81,22,225,"4,955",Science Fiction,United States,04/22/2021,6.3,74%
+80,Seaspiracy,yes,"4,916",49,100,44,112,"4,916",Documentary,United States,03/24/2021,8.6,96%
+81,Death to 2020,yes,"4,824",74,65,27,179,"4,824",Comedy,United States,12/27/2020,6.9,
+82,Sky High,yes,"4,784",70,68,32,150,"4,784",Thriller,Spain,12/18/2020,5.7,
+83,Kingdom: Ashin of the North,yes,"4,765",80,60,88,54,"4,765",Horror,South Korea,07/23/2021,,
+84,Aftermath,no,"4,764",79,60,18,265,"4,764",Drama,United States,08/04/2021,5.3,
+85,Blue Miracle,yes,"4,724",81,58,20,236,"4,724",Drama,United States,05/27/2021,,83%
+86,Shrek,no,"4,721",53,89,151,31,"4,721",Animated,United States,05/16/2001,7.9,88%
+87,The Secret Life of Pets,no,"4,633",69,67,75,62,"4,633",Animated,United States,07/08/2016,6.7,74%
+88,Good on Paper,yes,"4,532",75,60,16,283,"4,532",Comedy,United States,06/23/2021,5.6,44%
+89,Trollhunters: Rise of the Titans,yes,"4,442",80,56,17,261,"4,442",Animated,United States,07/21/2021,7.4,
+90,There's Someone Inside Your House,yes,"4,411",83,53,17,259,"4,411",Horror,United States,10/06/2021,4.8,52%
+91,Jack Reacher: Never Go Back,no,"4,375",72,61,72,61,"4,375",Action,United States,10/21/2016,6.1,37%
+92,Squared Love,yes,"4,366",82,53,19,230,"4,366",Comedy,Poland,02/11/2021,4.9,
+93,The Equalizer 2,no,"4,354",54,81,164,27,"4,354",Action,United States,07/19/2018,7.1,
+94,The Silver Skates,no,"4,281",67,64,48,89,"4,281",Romance,Russia,12/10/2020,,
+95,The Croods,no,"4,247",78,54,52,82,"4,247",Animated,United States,03/22/2013,7.3,
+96,Fear Street: 1978,yes,"4,128",81,51,24,172,"4,128",Horror,United States,07/09/2021,6.8,89%
+97,I Am All Girls,yes,"4,089",79,52,19,215,"4,089",Thriller,South Africa,05/14/2021,5.6,
+98,Bad Trip,yes,"4,047",81,50,14,289,"4,047",Comedy,United States,03/26/2021,6.6,
+99,Double Dad,yes,"4,027",72,56,17,237,"4,027",Comedy,Brazil,01/15/2021,,
+100,Stuck Together,no,"3,927",65,60,29,135,"3,927",Comedy,France,06/23/2021,6.3,
+101,Baywatch,no,"3,901",65,60,90,43,"3,901",Action,United States,05/26/2017,5.5,17%
+102,Run,yes,"3,898",31,126,56,70,"3,898",Horror,United States,04/02/2021,6.7,
+103,Nightbooks,yes,"3,871",83,47,16,242,"3,871",Adventure,United States,09/15/2021,5.8,88%
+104,Crazy About Her,yes,"3,855",66,58,32,120,"3,855",Comedy,Spain,02/26/2021,,
+105,The Starling,yes,"3,848",76,51,21,183,"3,848",Drama,United States,09/24/2021,6.3,23%
+106,Home,no,"3,793",61,62,90,42,"3,793",Animated,United States,03/27/2015,6.7,47%
+107,Fear Street: 1666,yes,"3,783",81,47,17,223,"3,783",Horror,United States,07/16/2021,6.7,
+108,Skater Girl,yes,"3,739",79,47,21,178,"3,739",Drama,United States,06/11/2021,,
+109,Yara,yes,"3,737",86,43,17,220,"3,737",Crime,Italy,11/06/2021,5.9,
+110,Prey,yes,"3,718",83,45,12,310,"3,718",Adventure,Germany,09/10/2021,4.2,
+111,No One Gets Out Alive,yes,"3,672",83,44,11,334,"3,672",Horror,United Kingdom,09/29/2021,5.3,65%
+112,The Water Man,yes,"3,644",73,50,26,140,"3,644",Adventure,United States,05/09/2021,4.8,78%
+113,Trouble,no,"3,586",25,143,35,102,"3,586",Animated,Canada,01/11/2019,7.5,
+114,Rurouni Kenshin: The Final,yes,"3,576",60,60,38,94,"3,576",Action,Japan,04/23/2021,,
+115,The Stronghold,yes,"3,556",72,49,14,254,"3,556",Crime,France,08/18/2021,,
+116,The Magnificent Seven,no,"3,446",39,88,20,172,"3,446",Western,United States,09/14/2016,7.2,
+117,Britney Vs Spears,yes,"3,426",71,48,22,156,"3,426",Documentary,United States,09/28/2021,6.7,
+118,Oxygen,yes,"3,414",82,42,24,142,"3,414",Thriller,France,05/12/2021,6.4,94%
+119,Ride Along 2,no,"3,407",65,52,21,162,"3,407",Comedy,United States,01/14/2016,5.9,14%
+120,The Father Who Moves Mountains,yes,"3,365",79,43,13,259,"3,365",Thriller,Romania,06/11/2021,6.6,
+121,How I Became a Superhero,yes,"3,323",81,41,21,158,"3,323",Science Fiction,France,07/09/2021,7.3,
+122,Rurouni Kenshin: The Beginning,yes,"3,308",78,42,18,184,"3,308",Action,Japan,06/04/2021,,
+123,Kung Fu Panda 3,no,"3,288",55,60,30,110,"3,288",Animated,United States,01/23/2016,7.2,87%
+124,The Midnight Sky,yes,"3,282",81,41,20,164,"3,282",Science Fiction,United States,12/23/2020,5.6,50%
+125,Security,yes,"3,276",75,44,16,205,"3,276",Thriller,Italy,06/07/2021,4.9,
+126,Red Dot,yes,"3,244",79,41,15,216,"3,244",Thriller,Sweden,02/11/2021,5.4,
+127,Warcraft,no,"3,173",64,50,22,144,"3,173",Fantasy,United States,05/25/2016,7.1,
+128,The Girl on the Train,yes,"3,098",68,46,35,89,"3,098",Crime,India,02/26/2021,4.1,
+129,The Informer,no,"3,083",26,119,62,50,"3,083",Crime,United Kingdom,08/30/2019,6.5,
+130,The Witcher: Nightmare of the Wolf,yes,"3,024",73,41,34,89,"3,024",Animation,United States,08/23/2021,7.6,100%
+131,Dracula Untold,no,"2,906",64,45,18,161,"2,906",Horror,United States,10/03/2014,6.3,22%
+132,Jumanji: Welcome to the Jungle,no,"2,885",29,99,92,31,"2,885",Adventure,United States,12/20/2017,6.9,76%
+133,The SpongeBob Movie: Sponge on the Run,yes,"2,867",30,96,163,18,"2,867",Animated,United States,11/05/2020,6.4,
+134,Into the Beat,no,"2,851",69,41,15,190,"2,851",Romance,Germany,07/16/2020,5.3,
+135,Shrek 2,no,"2,835",43,66,77,37,"2,835",Animated,United States,05/18/2004,7.2,88%
+136,How to Train Your Dragon: The Hidden World,no,"2,831",47,60,104,27,"2,831",Animated,United States,01/23/2019,8.1,
+137,Once Upon a Time in Hollywood,no,"2,794",31,90,133,21,"2,794",Crime,United States,07/25/2019,8,
+138,Believe Me: The Abduction of Lisa McVey,no,"2,733",39,70,75,36,"2,733",Biopic,Canada,09/30/2018,,
+139,What Men Want,no,"2,716",37,73,94,29,"2,716",Comedy,United States,01/11/2019,3.8,41%
+140,Jurassic World,no,"2,638",56,47,20,132,"2,638",Science Fiction,United States,06/12/2015,7.2,71%
+141,Dora and the Lost City of Gold,no,"2,622",41,64,118,22,"2,622",Adventure,United States,07/31/2019,6.1,82%
+142,Seventh Son,no,"2,601",39,67,14,186,"2,601",Fantasy,United Kingdom,12/12/2014,5.5,13%
+143,Animals on the Loose: A You vs. Wild Interactive Movie,yes,"2,596",77,34,14,185,"2,596",Adventure,United States,02/16/2021,6.1,
+144,I Feel Pretty,no,"2,542",18,141,41,62,"2,542",Comedy,United States,04/20/2018,4.7,35%
+145,Sightless,no,"2,485",62,40,13,191,"2,485",Thriller,United States,09/29/2020,5.4,80%
+146,The Swarm,yes,"2,482",73,34,10,248,"2,482",Horror,France,04/09/2021,5.7,
+147,Tower Heist,no,"2,458",41,60,39,63,"2,458",Comedy,United States,11/04/2011,6.2,67%
+148,47 Ronin,no,"2,458",54,46,29,85,"2,458",Fantasy,United States,12/25/2013,6.3,
+149,Monster,no,"2,453",65,38,10,245,"2,453",Drama,United States,01/22/2018,6.3,67%
+150,Mortal Engines,no,"2,339",45,52,83,28,"2,339",Science Fiction,United States,11/27/2018,6.4,28%
+151,Ted 2,no,"2,335",48,49,26,90,"2,335",Comedy,United States,06/26/2015,6.5,
+152,R.I.P.D.,no,"2,325",39,60,19,122,"2,325",Science Fiction,United States,07/19/2013,5.6,
+153,A Week Away,yes,"2,314",76,30,13,178,"2,314",Music,United States,03/26/2021,5.3,60%
+154,This Little Love of Mine,no,"2,314",58,40,19,122,"2,314",Romance,Australia,04/22/2021,,
+155,Men in Black: International,no,"2,309",28,82,104,22,"2,309",Science Fiction,United States,06/12/2019,5.6,23%
+156,The Emoji Movie,no,"2,208",26,85,106,21,"2,208",Animated,United States,07/28/2017,1.4,7%
+157,Operation Varsity Blues: The College Admissions Scandal,yes,"2,179",53,41,15,145,"2,179",Documentary,United States,03/17/2021,7.1,
+158,Madame Claude,yes,"2,179",60,36,25,87,"2,179",Drama,France,04/02/2021,,
+159,The Yin Yang Master,no,"2,161",51,42,27,80,"2,161",Fantasy,China,02/12/2021,5.8,
+160,The Adventures of Sharkboy and Lavagirl,no,"2,075",25,83,75,28,"2,075",Adventure,United States,06/10/2005,3.5,20%
+161,Rurouni Kenshin Part I: Origins,no,"2,059",56,37,47,44,"2,059",Action,Japan,08/25/2012,,
+162,Sniper: Ultimate Kill,no,"2,055",34,60,77,27,"2,055",Action,United States,10/03/2017,5.6,
+163,Angel Has Fallen,no,"2,024",17,119,65,31,"2,024",Action,United States,08/21/2019,6.4,39%
+164,Twilight,no,"1,987",27,74,72,28,"1,987",Fantasy,United States,11/20/2008,5.2,49%
+165,The Twilight Saga: Breaking Dawn - Part 2,no,"1,945",27,72,66,29,"1,945",Fantasy,United States,11/16/2012,5.6,49%
+166,Aquaman,no,"1,940",14,139,95,20,"1,940",Superhero,United States,12/07/2018,7.7,
+167,Room,no,"1,922",22,87,20,96,"1,922",Drama,United States,10/16/2015,8.2,33%
+168,I See You,no,"1,889",18,105,15,126,"1,889",Crime,United States,09/11/2019,6.7,78%
+169,2012,no,"1,886",31,61,51,37,"1,886",Science Fiction,United States,10/10/2009,5.8,40%
+170,Wanted,no,"1,878",32,59,20,94,"1,878",Superhero,United States,06/26/2008,6.7,72%
+171,Just Say Yes,yes,"1,878",43,44,16,117,"1,878",Comedy,Netherlands,04/02/2021,4.4,
+172,Scoob!,no,202,1,202,28,7,202,Animated,United States,05/14/2020,5.7,48%
+173,The Son of Bigfoot,no,192,7,27,8,24,192,Animated,Belgium,07/27/2017,6.1,75%
+174,Ava,no,186,4,47,29,6,186,Thriller,United States,07/02/2020,5.8,19%
+175,Bombshell,no,181,2,91,14,13,181,Drama,United States,12/13/2019,6.8,70%
+176,Man on a Ledge,no,174,4,44,13,13,174,Thriller,United States,01/27/2012,6.6,32%

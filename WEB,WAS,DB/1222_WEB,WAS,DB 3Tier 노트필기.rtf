@@ -1,0 +1,219 @@
+{\rtf1\ansi\ansicpg949\deff0\nouicompat\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}{\f1\fswiss\fcharset0 Calibri;}{\f2\fnil\fcharset0 Calibri;}{\f3\fnil\fcharset2 Wingdings;}{\f4\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}
+{\colortbl ;\red0\green77\blue187;\red255\green0\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sl240\slmult1\f0\fs24\lang18 Web/WAS/DB 3Tier\par
+\par
+* Port \par
+- \lang1042\'bc\'ad\'ba\'f1\'bd\'ba\'b8\'a6 \'b1\'b8\'ba\'d0\'c7\'cf\'b4\'c2 \'bd\'c4\'ba\'b0\'c0\'da \'bf\'aa\'c7\'d2\par
+1) System Port (Well Known Port) : \'b0\'f8\'c5\'eb\'c0\'fb\'c0\'b8\'b7\'ce \'bc\'ad\'b9\'f6\'bf\'a1 \'c7\'d2\'b4\'e7\'c7\'cf\'b4\'c2 \'c6\'f7\'c6\'ae (1~1023)\par
+   ex) 80(HTTP),  443(HTTPS),  22(SSH),  53(DNS) \'b5\'ee --------> \'bf\'eb\'b5\'b5\'b0\'a1 \'b9\'cc\'b8\'ae \'c1\'f6\'c1\'a4\'b5\'c7\'be\'ee \'c0\'d6\'c0\'bd\par
+2) Application Port : \'b0\'b3\'ba\'b0\'c8\'b8\'bb\'e7\'b5\'e9\'c0\'cc \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c6\'f7\'c6\'ae (1024~49151)\par
+   ex) 3306(MySQL),     5432(PostgreSQL),  3389(RDP:MS\'c0\'c7 \'bf\'f8\'b0\'dd\'c1\'a2\'bc\'d3)\par
+\lang18 3) Dynamic Port : \lang1042\'c5\'ac\'b6\'f3\'c0\'cc\'be\'f0\'c6\'ae\'b5\'e9\'c0\'cc \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c6\'f7\'c6\'ae (49152~65535)\par
+   ex) Web Browser\'b5\'e9\'c0\'cc \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b1\'b8\'b0\'a3 (\'bf\'a9\'b7\'af\'c5\'c7\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d2 \'b0\'e6\'bf\'ec, \'c5\'c7\'b8\'b6\'b4\'d9 \'c6\'f7\'c6\'ae\'b0\'a1 \'c7\'cf\'b3\'aa\'be\'bf \'c7\'d2\'b4\'e7\'b5\'ca)\par
+\par
+cmd> netstat  -na\par
+\par
+* Packet Filtering \'b9\'e6\'c8\'ad\'ba\'ae : IP\'c1\'d6\'bc\'d2\'bf\'cd Port\'b8\'a6 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce \'c2\'f7\'b4\'dc \'b6\'c7\'b4\'c2 \'c7\'e3\'bf\'eb\par
+\par
+* Screened Subnet (\'b0\'a1\'b7\'c1\'c1\'f8 \'bc\'ad\'ba\'ea\'b3\'dd= Internal Network)\par
+- DMZ\'b0\'a1 \'c0\'ce\'c5\'cd\'b3\'dd\'b0\'fa \'b3\'bb\'ba\'ce\'b8\'c1\'bf\'a1 \'bb\'e7\'c0\'cc\'bf\'a1 \'b9\'e8\'c4\'a1\'b5\'c7\'b4\'c2 \'b9\'e6\'bd\'c4\par
+- \'b1\'dd\'c0\'b6\'b1\'c7\'bf\'a1\'bc\'ad \'c1\'d6\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'d4\par
+\par
+* \'b3\'d7\'c6\'ae\'bf\'f6\'c5\'a9 \'b9\'e6\'c8\'ad\'ba\'ae : \'b3\'d7\'c6\'ae\'bf\'f6\'c5\'a9\'c0\'c7 \'c1\'df\'b0\'a3\'bf\'a1 \'b9\'e8\'c4\'a1\'c7\'d8\'bc\'ad \'b3\'d7\'c6\'ae\'bf\'f6\'c5\'a9\'b8\'a6 \'ba\'d0\'b8\'ae\'c7\'cf\'b0\'ed \'c1\'a2\'b1\'d9\'c0\'bb \'c5\'eb\'c1\'a6\'c7\'d4    ex) IP\'b0\'f8\'c0\'af\'b1\'e2\par
+  \'bd\'c3\'bd\'ba\'c5\'db \'b9\'e6\'c8\'ad\'ba\'ae : OS\'bf\'a1 \'bc\'b3\'c4\'a1\'b5\'c7\'be\'ee \'c0\'d6\'b0\'c5\'b3\'aa, Application\'c7\'fc\'c5\'c2\'b7\'ce \'bc\'b3\'c4\'a1\'c7\'cf\'b4\'c2 \'b9\'e6\'bd\'c4\par
+\par
+Quiz) HTTP \'c7\'c1\'b7\'ce\'c5\'e4\'c4\'dd\'c0\'ba \'b9\'ab\'be\'f9\'c0\'bb \'c0\'fc\'bc\'db\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1 \'c7\'c1\'b7\'ce\'c5\'e4\'c4\'dd\'c0\'cf\'b1\'ee\'bf\'e4?\par
+   HTML, Image \'b5\'ee\'c0\'bb \'c0\'fc\'bc\'db\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1 \'c7\'c1\'b7\'ce\'c5\'e4\'c4\'dd\par
+\par
+\par
+* HA (High Availability, \'b0\'ed\'b0\'a1\'bf\'eb\'bc\'ba) : Active-Standby\par
+\par
+* Load Balancing (\'ba\'ce\'c7\'cf \'ba\'d0\'bb\'ea) : \'bf\'a9\'b7\'af\'b4\'eb\'c0\'c7 \'bc\'ad\'b9\'f6\'bf\'a1 \'ba\'ce\'c7\'cf\'b8\'a6 \'ba\'d0\'bb\'ea\'c7\'cf\'b4\'c2 \'b9\'e6\'bd\'c4 -----> \'b8\'f0\'b5\'e7 \'bc\'ad\'b9\'f6\'b0\'a1 \'bf\'e4\'c3\'bb\'c0\'bb \'ba\'d0\'bb\'ea\'c7\'d8\'bc\'ad \'c3\'b3\'b8\'ae(\'b8\'f0\'b5\'e7 \'bc\'ad\'b9\'f6\'b0\'a1 \'b5\'bf\'c0\'db)\par
+\par
+* Auto Scaling : \'c8\'b0\'bc\'ba\'c8\'ad\'b5\'c8 \'bc\'ad\'b9\'f6\'c0\'c7 \'b0\'b3\'bc\'f6\'b8\'a6 \'c0\'af\'c1\'f6\'c7\'cf\'b0\'c5\'b3\'aa, \'c6\'ae\'b7\'a1\'c7\'c8\'c0\'cc \'c1\'f5\'b0\'a1\'c7\'cf\'b8\'e9 \'bc\'ad\'b9\'f6\'b8\'a6 \'b4\'c3\'b8\'ae\'b0\'ed \'c6\'ae\'b7\'a1\'c7\'c8\'c0\'cc \'b0\'a8\'bc\'d2\'c7\'cf\'b8\'e9 \'bc\'ad\'b9\'f6\'b8\'a6 \'c1\'d9\'c0\'cc\'b4\'c2 \'b9\'e6\'bd\'c4\par
+\par
+\'bd\'c7\'bd\'c0) Workbench \'b6\'c7\'b4\'c2 Cmd\'b7\'ce \'c7\'d8\'b5\'b5 \'b5\'ca\par
+\par
+C:\\>\cf1 cd \\\par
+\cf0 C:\\>\cf1 cd "Program Files"                                                 \cf0 //  cd pro\'b1\'ee\'c1\'f6 \'be\'b2\'b0\'ed Tab\'c5\'b0\'b8\'a6 \'b4\'a9\'b8\'a3\'b8\'e9 \'bf\'cf\'bc\'ba\'b5\'ca\par
+C:\\Program Files>\cf1 cd MySQL\cf0\par
+C:\\Program Files\\MySQL>\cf1 cd "MySQL Server 8.0"              \cf0  // \'b6\'e7\'be\'ee\'be\'b2\'b1\'e2\'b0\'a1 \'c0\'d6\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b4\'c2 "   "\'b7\'ce \'b9\'ad\'be\'ee\'c1\'d6\'b8\'e9 \'c6\'ed\'b8\'ae\'c7\'d4\par
+C:\\Program Files\\MySQL\\MySQL Server 8.0>\cf1 cd bin\cf0\par
+C:\\Program Files\\MySQL\\MySQL Server 8.0\\bin>\cf1  mysql  -u root -p\cf0\par
+  ( PW : aivle )\par
+\par
+show databases;                                           // DB\'b0\'a1 \'bf\'a9\'b7\'af\'b0\'b3\'c0\'cc\'b9\'c7\'b7\'ce \'b9\'dd\'b5\'e5\'bd\'c3 \'ba\'b9\'bc\'f6\'b7\'ce \'c1\'b6\'c8\'b8\par
+\par
+* \'b9\'ae\'c0\'da\par
+1) ASCII (American Standard Code ~~)   \par
+- \'b4\'eb\'b9\'ae\'c0\'da, \'bc\'d2\'b9\'ae\'c0\'da, \'bc\'fd\'c0\'da, \'c6\'af\'bc\'f6\'b9\'ae\'c0\'da\par
+- 128\'b0\'b3 \'c0\'cc\'c7\'cf\'b7\'ce \'c7\'a5\'c7\'f6 \'b0\'a1\'b4\'c9 ---> 2\'c0\'c7 7\'bd\'c2=7bit\par
+\par
+2) EUC-kr\par
+- Microsoft\'bf\'a1\'bc\'ad \'b8\'b8\'b5\'e7 \'c7\'d1\'b1\'db \'c7\'a5\'c7\'f6 \'b9\'ae\'c0\'da\'bc\'c2 (\'bf\'cf\'bc\'ba\'c7\'fc\'bf\'a1 \'b1\'e2\'b9\'dd\'c0\'bb \'b5\'d0 \'b9\'e6\'bd\'c4)\par
+\par
+3) UTF-8\'b7\'ce\'b5\'b5 \'c7\'d1\'b1\'db \'c7\'a5\'bd\'c3 \'b0\'a1\'b4\'c9 (\'b4\'eb\'ba\'ce\'ba\'d0 UTF8\'b7\'ce \'bb\'e7\'bf\'eb)\par
+- Web, Linux, MySQL \'b5\'ee\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c7\'d1\'b1\'db \'c7\'a5\'c7\'f6 \'b9\'ae\'c0\'da\'bc\'c2 (\'c1\'b6\'c7\'d5\'c7\'fc \'b9\'e6\'bd\'c4\'bf\'a1\'bc\'ad \'b9\'df\'c0\'fc)\par
+\par
+* int  :  21\'be\'ef \'c1\'a4\'b5\'b5\'b1\'ee\'c1\'f6 \'b9\'db\'bf\'a1 \'c7\'a5\'bd\'c3\'b8\'a6 \'b8\'f8\'c7\'d4\par
+   ex) \'ba\'ce\'b5\'bf\'bb\'ea \'b0\'a1\'b0\'dd \'c7\'a5\'bd\'c3,  \'b0\'ed\'be\'d7 \'bf\'ac\'ba\'c0 \'bd\'ba\'c6\'f7\'c3\'f7 \'bc\'b1\'bc\'f6\'b5\'e9 \'b5\'ee\'c0\'bb \'c7\'a5\'bd\'c3\'c7\'cf\'b1\'e2 \'be\'ee\'b7\'c1\'bf\'f2\par
+   ------> bigint \'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d8\'bc\'ad \'b0\'ed\'be\'d7 \'b1\'dd\'be\'d7\'c0\'bb \'c7\'a5\'bd\'c3\'c7\'d2 \'bc\'f6 \'c0\'d6\'c0\'bd  \cf2\'a1\'da\cf0\par
+\par
+* \'c0\'da\'bd\'c5\'c0\'c7 ID\'b7\'ce \'b7\'ce\'b1\'d7\'c0\'ce\par
+  \'c8\'b8\'bf\'f8\'b9\'f8\'c8\'a3\'b4\'c2 \'c8\'b8\'bb\'e7 \'b3\'bb\'ba\'ce\'c0\'fb\'c0\'b8\'b7\'ce PK(\'b1\'e2\'ba\'bb\'c5\'b0)\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'d8\'be\'df \'c7\'d4 (\'b0\'ed\'b0\'b4\'c0\'ba \'b8\'f4\'b6\'f3\'b5\'b5 \'b5\'ca)\par
+\par
+* PK(\'b1\'e2\'ba\'bb\'c5\'b0\'b7\'ce \'bb\'e7\'bf\'eb\'b0\'a1\'b4\'c9\'c7\'d1 \'b9\'f8\'c8\'a3)\par
+- \'c1\'d6\'b9\'ce\'b9\'f8\'c8\'a3 ------> \'b0\'b3\'c0\'ce\'c1\'a4\'ba\'b8\'ba\'b8\'c8\'a3\'b9\'fd\'bf\'a1\'bc\'ad \'c1\'d6\'b9\'ce\'b9\'f8\'c8\'a3 \'bb\'e7\'bf\'eb\'c0\'bb \'c1\'a6\'c7\'d1 (\'bf\'e4\'c1\'f2\'bf\'a1\'b4\'c2 PK\'b7\'ce \'bb\'e7\'bf\'eb \'be\'c8\'c7\'d4)\par
+- \'c8\'b8\'bf\'f8\'b9\'f8\'c8\'a3\'b8\'a6 \'ba\'b0\'b5\'b5\'b7\'ce \'ba\'ce\'bf\'a9\'c7\'d8\'bc\'ad \'bb\'e7\'bf\'eb (\'c1\'df\'ba\'b9\'c0\'cc \'b5\'c7\'b8\'e9 \'be\'c8\'b5\'ca)\par
+- ID\'b7\'ce\'b5\'b5 PK\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6\'b5\'b5 \'c0\'d6\'c0\'bd(\'ba\'f1\'b1\'c7\'c0\'e5) ----> ID\'b8\'a6 \'b9\'d9\'b2\'dc \'bc\'f6\'b5\'b5 \'c0\'d6\'c0\'bd(ID\'b8\'a6 \'b8\'f8\'b9\'d9\'b2\'d9\'b0\'d4 \'c7\'d4, \'c5\'bb\'c5\'f0/\'c0\'e7\'b0\'a1\'c0\'d4 \'b5\'ee\'c0\'b8\'b7\'ce \'c1\'df\'ba\'b9\'c0\'c7 \'bf\'ec\'b7\'c1\'b0\'a1 \'c0\'d6\'c0\'bd)\par
+\par
+* int\'b7\'ce \'c7\'df\'c0\'bb\'b6\'a7 \'c0\'d4\'b7\'c2\'c7\'d1 \'b0\'aa\'c0\'cc, varchar\'b7\'ce \'b9\'d9\'b2\'d9\'be\'ee\'b5\'b5 \'b1\'d7\'b4\'eb\'b7\'ce int\'b7\'ce \'c0\'d4\'b7\'c2\'c7\'df\'b4\'f8 \'b0\'aa\'c0\'cc \'c1\'b8\'c0\'e7\'c7\'cf\'b0\'d4 \'b5\'ca\par
+  ----> varchar\'b7\'ce \'b9\'d9\'b2\'db \'c8\'c4\'bf\'a1 \'b4\'d9\'bd\'c3, update\'b9\'ae\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d8\'be\'df \'c7\'d4...    2  --> 02\par
+\par
+\par
+* UNION\par
+- SELECT\'b9\'ae 2\'b0\'b3\'b8\'a6 \'bf\'ac\'b0\'e1\'c7\'d2\'b6\'a7 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\par
+- \'c1\'d6\'c0\'c7!!!  \'be\'d5\'c0\'c7 SELECT\'b9\'ae\'bf\'a1\'bc\'ad \'bf\'e4\'c3\'bb\'c7\'d1 \'c4\'c3\'b7\'b3 \'b0\'b3\'bc\'f6\'bf\'cd \'b5\'da\'c0\'c7 SELECT\'b9\'ae\'bf\'a1\'bc\'ad \'bf\'e4\'c3\'bb\'c7\'cf\'b4\'c2 \cf2\'c4\'c3\'b7\'b3\'c0\'c7 \'b0\'b3\'bc\'f6\'b0\'a1 \'c0\'cf\'c4\'a1\cf0\'c7\'d8\'be\'df \'c7\'d4.\par
+  ex)  SELECT  id,pw,phone  FROM  member  UNION  SELECT  phone,address,zipcode  FROM  member;\par
+   ----> \'c4\'c3\'b7\'b3\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'ba \'bb\'f3\'b0\'fc\'c0\'cc \'be\'f8\'c0\'bd, \'b0\'b3\'bc\'f6\'b8\'b8 \'b8\'c2\'c3\'df\'b8\'e9 \'b5\'ca\par
+\par
+  ex) \'c7\'d0\'bb\'fd \'b6\'c7\'b4\'c2 \'c1\'f7\'c0\'e5\'c0\'ce\'c0\'ce \'bb\'e7\'b6\'f7\'c0\'bb \'c3\'a3\'c0\'b8\'b7\'c1\'b0\'ed \'c7\'d2\'b6\'a7\par
+      ----> \'c7\'d0\'bb\'fd, \'c1\'f7\'c0\'e5\'c0\'ce, \'c7\'d0\'bb\'fd\'c0\'cc\'b8\'e9\'bc\'ad \'c1\'f7\'c0\'e5\'c0\'ce\'c0\'ce \'bb\'e7\'b6\'f7  -----> \'bc\'bc \'ba\'ce\'b7\'f9\'b0\'a1 \'b0\'f1\'b6\'f3\'c1\'fc\par
+\par
+  join\'c0\'ba \'c1\'b6\'b0\'c7\'c0\'fd\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\par
+  union\'c0\'ba select\'b8\'a6 \'bf\'ac\'b0\'e1\'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\par
+   -----> \'b0\'e1\'b0\'fa\'b0\'a1 \'b4\'d9\'b8\'a3\'b0\'d4 \'b3\'aa\'bf\'c8!\par
+\par
+* \'bd\'c7\'bd\'c0\'bd\'c3\'b0\'a3 \'bd\'c7\'bd\'c0 \'bc\'f8\'bc\'ad\par
+- \'b0\'ad\'c0\'c7 \'b1\'b3\'c0\'e7(p.26~44)\'c0\'c7 city \'bd\'c7\'bd\'c0 :  2\'bd\'c3\'b1\'ee\'c1\'f6  ------>   \'b0\'fa\'c1\'a61_\'c0\'cc\'b8\'a7_\'c1\'f6\'b4\'cf\'be\'ee\'bd\'baID.pptx\par
+- \'bd\'c7\'bd\'c0 \'c6\'c4\'c0\'cf\'bf\'a1 \'c0\'d6\'b4\'c2 \'bd\'c7\'bd\'c0 11\'c6\'e4\'c0\'cc\'c1\'f6\'b1\'ee\'c1\'f6 :  3\'bd\'c3\'b1\'ee\'c1\'f6  -------> \'b0\'fa\'c1\'a62_\'c0\'cc\'b8\'a7_\'c1\'f6\'b4\'cf\'be\'ee\'bd\'baID.pptx\par
+\par
+\'bd\'c7\'bd\'c0 \'c1\'a6\'c3\'e2 \'b9\'e6\'b9\'fd\par
+- Alt\'c5\'b0 + PrtSc\'c5\'b0 : \'c8\'ad\'b8\'e9 \'c4\'b8\'c3\'c4\'c7\'d8\'bc\'ad PPT \'b6\'c7\'b4\'c2 \'b4\'d9\'b8\'a5 \'b9\'e6\'b9\'fd\'c0\'b8\'b7\'ce\'b5\'b5 \'b5\'ca ---> \'b0\'fa\'c1\'a61_\'c0\'cc\'b8\'a7_\'c1\'f6\'b4\'cf\'be\'ee\'bd\'baID.pptx \'c7\'d8\'bc\'ad \'c1\'a6\'c3\'e2\par
+- \'be\'f7\'b7\'ce\'b5\'e5 \'c0\'e5\'bc\'d2 : \'c6\'c0\'c1\'ee\'bf\'a1 \'be\'f7\'b7\'ce\'b5\'e5\par
+\par
+\'c2\'fc\'b0\'ed) \'bf\'c0\'c0\'fc \'b3\'eb\'c6\'ae\'c7\'ca\'b1\'e2(1222.rtf)\'b5\'b5 \'be\'f7\'b7\'ce\'b5\'e5 \'c7\'d8\'b5\'e5\'b7\'c8\'bd\'c0\'b4\'cf\'b4\'d9~ :)\par
+\par
+\par
+\'b0\'fa\'c1\'a62) sequence\'b4\'c2 \'c1\'a6\'bf\'dc\'c7\'cf\'b0\'ed \'bd\'c7\'bd\'c0\'c7\'cf\'bc\'bc\'bf\'e4~\par
+\par
+cf) \'c8\'ac\'b5\'fb\'bf\'c8\'c7\'a5\'bf\'cd single quotation\'c0\'ba \'b4\'d9\'b8\'a8\'b4\'cf\'b4\'d9.  \par
+
+\pard\cf3\kerning24\lang1033 select * from member where grade=\lquote a\rquote ;                          // SQL \lang1042\'bf\'a1\'b7\'af\'b3\'b3\'b4\'cf\'b4\'d9.\lang1033\par
+select * from member where grade='a';                          // SQL \lang1042\'c1\'a4\'bb\'f3 \'bd\'c7\'c7\'e0\'b5\'cb\'b4\'cf\'b4\'d9.\lang1033\par
+
+\pard\sl240\slmult1\cf0\kerning0\lang1042\par
+\'b0\'fa\'c1\'a61, \'b0\'fa\'c1\'a62 \'c7\'cf\'b4\'c0\'b6\'f3 \'bc\'f6\'b0\'ed \'b8\'b9\'c0\'b8\'bc\'cc\'bd\'c0\'b4\'cf\'b4\'d9.\par
+\par
+\par
+\'b0\'fa\'c1\'a63)  5\'bd\'c3 \'c1\'a4\'b0\'a2\'b1\'ee\'c1\'f6 \'c1\'a6\'c3\'e2\'c7\'cf\'bc\'bc\'bf\'e4~\par
+\'c1\'a6\'c3\'e2 \'c6\'c4\'c0\'cf\'b8\'ed :  \'b0\'fa\'c1\'a63_\'c0\'cc\'b8\'a7_\'c1\'f6\'b4\'cf\'be\'ee\'bd\'baID.pptx\par
+\par
+1\'b4\'dc\'b0\'e8) \'bd\'c7\'bd\'c0 \'b9\'ae\'bc\'ad \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5\par
+{{\field{\*\fldinst{HYPERLINK https://cafe.naver.com/ciscocafe/406 }}{\fldrslt{https://cafe.naver.com/ciscocafe/406\ul0\cf0}}}}\f0\fs24     pdf \'c6\'c4\'c0\'cf\'c0\'bb \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 \par
+\par
+
+\pard\cf3\f1\par
+2\f0\'b4\'dc\'b0\'e8) \'bd\'c7\'bd\'c0 \'c6\'c4\'c0\'cf\'c0\'bb \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 (goods.sql)\f1\par
+{{\field{\*\fldinst{HYPERLINK http://ha.do/vIh }}{\fldrslt{http://ha.do/vIh\ul0\cf0}}}}\f1\fs24      (\f0\'ba\'ea\'c0\'cc \'b4\'eb\'b9\'ae\'c0\'da\'be\'c6\'c0\'cc \'bf\'a1\'c0\'cc\'c4\'a1)\f1\par
+
+\pard\sl240\slmult1\cf0\f0 goods.sql \'c6\'c4\'c0\'cf\'c0\'bb \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 \'b9\'de\'c0\'ba \'c8\'c4, c:\\intel \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 (\'be\'f8\'c0\'b8\'b8\'e9 \'b8\'b8\'b5\'e9\'b0\'ed) \'bf\'c5\'b0\'dc\'c1\'d6\'bc\'bc\'bf\'e4~\par
+\par
+MySQL> source  c:/intel/goods.sql\par
+MySQL> show  databases;\par
+MySQL> use  classicmodels;\par
+-------> \'bf\'a9\'b1\'e2\'b1\'ee\'c1\'f6 \'c7\'cf\'b0\'ed, 5\'c6\'e4\'c0\'cc\'c1\'f6\'ba\'ce\'c5\'cd \'b9\'ae\'c1\'a6\'b8\'a6 \'ba\'b8\'b0\'ed SQL\'b9\'ae\'c0\'bb \'c0\'db\'bc\'ba\'c7\'d8\'bc\'ad \'c3\'e2\'b7\'c2 \'b0\'e1\'b0\'fa\'b8\'a6 \'c4\'b8\'c3\'c4\'c7\'d8\'bc\'ad PPT\'b7\'ce \'b8\'b8\'b5\'e9\'b8\'e9 \'b5\'cb\'b4\'cf\'b4\'d9.\par
+\par
+6page\'c0\'c7 orders\'bf\'a1\'bc\'ad 2005\'b3\'e2\'c0\'ba orderdate\'b8\'a6 \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'c7\'d5\'b4\'cf\'b4\'d9.\par
+7page\'b4\'c2 product(X) ----> product\cf2 s\cf0 (O)\par
+\'bb\'f3\'b9\'dd\'b1\'e2 : 1\'bf\'f9 ~ 6\'bf\'f9  (between '2005-01-01' and '2005-06-30')\par
+\par
+\'b9\'e8 \'b8\'b8\'b5\'e5\'b4\'c2 \'c8\'b8\'bb\'e7 : products\'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad productLine\'b0\'fa productVendor\'b8\'a6 \'c2\'fc\'b0\'ed\'c7\'cf\'bc\'bc\'bf\'e4~\par
+'\'c1\'df\'ba\'b9\'c0\'bb \'c1\'a6\'b0\'c5\'c7\'cf\'b0\'ed'\'b4\'c2 \'be\'d5 \'b9\'ae\'c1\'a6\'bf\'a1 \'c3\'df\'b0\'a1\'b5\'c7\'b4\'c2 \'b3\'bb\'bf\'eb\'c0\'d4\'b4\'cf\'b4\'d9.\par
+ \'b0\'ed\'b0\'b4 \'c8\'b8\'bb\'e7\'b4\'c2 CustomerName\par
+ \'c1\'a6\'c1\'b6\'bb\'e7\'b4\'c2 ProductVendor\par
+\'b8\'b6\'c1\'f6\'b8\'b7 \'b9\'ae\'c1\'a6 \'c1\'a4\'b4\'e4\'c0\'ba 5\'bd\'c3\'bf\'a1 \'be\'cb\'b7\'c1\'b5\'e5\'b8\'ae\'b0\'da\'bd\'c0\'b4\'cf\'b4\'d9~\par
+\par
+hint)  orders, orderdetails, customers \'c0\'bb \'b8\'f0\'b5\'ce join\'c0\'b8\'b7\'ce \'c3\'b3\'b8\'ae\par
+\par
+* \'b8\'b6\'c1\'f6\'b8\'b7 \'b9\'ae\'c1\'a6 \'c7\'aa\'b4\'c2 \'b9\'e6\'b9\'fd (\'b4\'d9\'b8\'a5 \'b9\'e6\'b9\'fd\'c0\'cc \'c0\'d6\'c0\'bb \'bc\'f6\'b5\'b5 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.)\par
+
+\pard\cf3\kerning24\f2\lang1033 1) \f0\lang1042\'bb\'f3\'bc\'bc \'c1\'d6\'b9\'ae \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'c7 \'c4\'c3\'b7\'b3 \'c1\'be\'b7\'f9\'b8\'a6 \'bb\'ec\'c6\'ec\'ba\'be\'b4\'cf\'b4\'d9\f2\lang1033 .\par
+    desc orderdetails;\par
+2) \f0\lang1042\'c1\'d6\'b9\'ae\'b1\'dd\'be\'d7\'c0\'cc\f2  \f0\'b8\'b9\'c0\'ba\f2  \f0\'b0\'ed\'b0\'b4\'c0\'ba\f2  \f0\'c1\'d6\'b9\'ae\'b7\'ae\f2\lang1033 (quantityOrdered)\f0\lang1042\'bf\'cd \'c1\'a6\'c7\'b0\'b0\'a1\'b0\'dd\f2\lang1033 (priceEach)\f0\lang1042\'c0\'c7 \'b0\'f6\'c0\'b8\'b7\'ce \'b0\'e8\'bb\'ea\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9\f2\lang1033 . \f0\lang1042\'b5\'fb\'b6\'f3\'bc\'ad\f2\lang1033 , \f0\lang1042\'c1\'d6\'b9\'ae\'b7\'ae\'b0\'fa \'b0\'a1\'b0\'dd\'c0\'bb \'b0\'f6\'c7\'d8\'bc\'ad \f2\lang1033 vip \f0\lang1042\'c4\'c3\'b7\'b3\'c0\'b8\'b7\'ce \'b8\'b8\'b5\'e9\'b1\'e2\f2\lang1033\par
+    select  quantityOrdered*priceEach as vip from orderdetails;\par
+3) vip \f0\lang1042\'c4\'c3\'b7\'b3\'bf\'a1 \'b5\'fb\'b6\'f3 \'b3\'bb\'b8\'b2\'c2\'f7\'bc\'f8 \'c1\'a4\'b7\'c4\f2\lang1033\par
+4) \f0\lang1042\'b3\'ca\'b9\'ab \'b8\'b9\'c0\'cc \'b3\'aa\'bf\'c0\'b9\'c7\'b7\'ce \f2\lang1033 10\f0\lang1042\'b0\'b3\'b8\'b8 \'b0\'f1\'b6\'f3\'bc\'ad \'ba\'b8\'b1\'e2\f2\lang1033\par
+\lang1042   \f3\lang1033\'e0\f2  \f0\lang1042\'c1\'d6\'b9\'ae\'b7\'ae\'b0\'fa \'b0\'a1\'b0\'dd\'c0\'bb \'b0\'f6\'c7\'d8\'bc\'ad \f2\lang1033 vip \f0\lang1042\'c4\'c3\'b7\'b3\'c0\'b8\'b7\'ce \'b8\'b8\'b5\'e9\'b0\'ed\f2\lang1033 , vip \f0\lang1042\'c4\'c3\'b7\'b3\'c0\'bb \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'b3\'bb\'b8\'b2\'c2\'f7\'bc\'f8 \'c1\'a4\'b7\'c4\'c0\'bb \'c7\'d1 \'c8\'c4\f2\lang1033 , 10\f0\lang1042\'b0\'b3\'b8\'b8 \'b0\'f1\'b6\'f3\'bc\'ad \'ba\'b8\'b1\'e2\par
+\f2\lang1033 5) \f0\lang1042\'b4\'a9\'b0\'a1 \'c1\'d6\'b9\'ae\'c7\'df\'b4\'c2\'c1\'f6 \'c1\'d6\'b9\'ae \'b9\'f8\'c8\'a3 \'c3\'df\'c3\'e2\f2\lang1033\par
+6) \f0\lang1042\'b0\'ed\'b0\'b4 \'b9\'f8\'c8\'a3\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad \'b4\'a9\'b0\'a1 \'b8\'b9\'c0\'cc \'c1\'d6\'b9\'ae\'c7\'df\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\f2\lang1033\par
+7) \f0\lang1042\'b0\'ed\'b0\'b4 \'c8\'b8\'bb\'e7\'c0\'cc\'b8\'a7\'c0\'bb \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad \'b4\'a9\'b0\'a1 \'b8\'b9\'c0\'cc \'c1\'d6\'b9\'ae\'c7\'df\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\f2\lang1033\par
+8) \f0\lang1042\'b0\'ed\'b0\'b4\'c0\'c7 \'c0\'cc\'b8\'a7\f2\lang1033 , \f0\lang1042\'c0\'fc\'c8\'ad\'b9\'f8\'c8\'a3\f2\lang1033 , \f0\lang1042\'c1\'d6\'bc\'d2\'b8\'a6 \'c3\'e2\'b7\'c2\'c7\'cf\'b1\'e2 \f2\lang1033 (join)\par
+
+\pard\sl240\slmult1\cf0\kerning0\f0\lang1042\par
+\par
+---------------------   \'c1\'a4 \'b4\'e4 \'b0\'f8 \'b0\'b3  -----------------------------\par
+\cf3\kerning24\f2\lang1033 select  customerName,city,country  from  customers;\par
+select  customerName,city,country  from  customers  where  country='USA';\par
+select  customerName,city,country  from  customers  where  city='NYC';\cf0\kerning0\f0\lang1042\par
+\par
+\par
+
+\pard\cf3\kerning24\f2\lang1033 select  firstName,lastName,email,jobTitle  from  employees;\par
+select  *  from  orders  where  orderDate   between  '2005-01-01' and '2005-12-31' ;\par
+select  orderDate,shippedDate  from  orders  where  orderDate   between  '2005-01-01' and '2005-06-30' ;\par
+
+\pard\sl240\slmult1\cf0\kerning0\f0\lang1042\par
+\par
+
+\pard\cf3\kerning24\f2\lang1033 select  productVendor  from  products  where  productLine='Planes';\cf0\kerning0\f0\lang1042\par
+\cf3\kerning24\f2\lang1033 select  productVendor  from  products  where  productLine='Ships';\par
+select  productVendor  from  products  where  productLine='Vintage Cars';\par
+select \cf2 distinct\cf3  productVendor from products where productLine='Vintage Cars';\par
+
+\pard\sl240\slmult1\cf0\kerning0\f0\lang1042\par
+\lang18 * VIP 10\lang1042\'b8\'ed\'c0\'bb \'bc\'b1\'ba\'b0\'c7\'cf\'b1\'e2\lang18\par
+select  quantityOrdered*priceEach as vip from orderdetails order by vip desc limit 10;\par
+
+\pard\nowidctlpar\f4\lang1033 select orderNumber,quantityOrdered*priceEach as vip from orderdetails order by vip desc limit 10;\par
+
+\pard\sl240\slmult1\f0\lang18\par
+join\lang1042\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d8\'bc\'ad \'bf\'a9\'b7\'af \'c5\'d7\'c0\'cc\'ba\'ed\'bf\'a1\'bc\'ad \'c3\'df\'c3\'e2,  \'c5\'d7\'c0\'cc\'ba\'ed\'b8\'ed.\'c4\'c3\'b7\'b3\'b8\'ed \'c7\'fc\'bd\'c4\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d8\'be\'df \'c7\'d4.\par
+\f4\lang1033\par
+6) \cf3\kerning24\f0\lang1042\'b0\'ed\'b0\'b4 \'b9\'f8\'c8\'a3\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad \'b4\'a9\'b0\'a1 \'b8\'b9\'c0\'cc \'c1\'d6\'b9\'ae\'c7\'df\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\cf0\kerning0\f4\lang1033  \par
+select \par
+orders.customerNumber,orderdetails.orderNumber,orderdetails.quantityOrdered*orderdetails.priceEach as vip \par
+from orderdetails join orders \par
+on orders.orderNumber = orderdetails.orderNumber \par
+order by vip desc limit 10;\f0\lang1042\par
+\lang18\par
+7) \cf3\kerning24\lang1042\'b0\'ed\'b0\'b4 \'c8\'b8\'bb\'e7\'c0\'cc\'b8\'a7\'c0\'bb \'c3\'df\'b0\'a1\'c7\'d8\'bc\'ad \'b4\'a9\'b0\'a1 \'b8\'b9\'c0\'cc \'c1\'d6\'b9\'ae\'c7\'df\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\cf0\kerning0\lang18\par
+
+\pard\nowidctlpar\f4\lang1033 select customers.customerName,orders.customerNumber,orderdetails.orderNumber,orderdetails.quantityOrdered*orderdetails.priceEach as vip from orderdetails join orders join customers \par
+on orders.orderNumber = orderdetails.orderNumber \par
+order by vip desc limit 10;\par
+
+\pard\sl240\slmult1\f0\lang18\par
+
+\pard\cf3\kerning24\f2\lang1033 8) \f0\lang1042\'b0\'ed\'b0\'b4\'c0\'c7 \'c0\'cc\'b8\'a7\f2\lang1033 , \f0\lang1042\'c0\'fc\'c8\'ad\'b9\'f8\'c8\'a3\f2\lang1033 , \f0\lang1042\'c1\'d6\'bc\'d2\'b8\'a6 \'c3\'e2\'b7\'c2\'c7\'cf\'b1\'e2 \f2\lang1033 (join)\par
+
+\pard\nowidctlpar\cf0\kerning0\f4 select  customers.customerName,customers.phone,orderdetails.quantityOrdered*orderdetails.priceEach  as  vip \par
+from  orderdetails  join  orders  join customers  \par
+on  orders.orderNumber = orderdetails.orderNumber and  customers.customerNumber = orders.customerNumber  \par
+order by  vip  desc limit 10;\par
+
+\pard\sl240\slmult1\f0\lang18\par
+(\lang1042\'c1\'d6\'bc\'d2\'b4\'c2 \'b0\'a2\'c0\'da \'c3\'df\'b0\'a1\'c7\'cf\'bc\'bc\'bf\'e4~)\par
+\par
+\lang18\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+}
+ 

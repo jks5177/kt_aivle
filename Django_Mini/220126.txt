@@ -1,0 +1,32 @@
+codagram > templates > codagram > index.html
+ - line 37(change) {% include "member/mypage.html" %} => {% include "member/profile.html" %}
+	: mypage.html의 형식이 일정하지 않아서 profile.html을 새로 생성
+	: 경로 재지정
+
+codagram > views.py 
+ - line 9(create) context = my_paper(request) 
+	/codagram/ 의 profile 부분 데이터 전송을 위해 데이터 받아오는 함수 사용
+
+member > templates > member > profile.html
+- create : mypage.html은 페이지로써의 역할을 수행, profile.html은 main page에 profile로 수행
+
+member > views.py 
+- def my_paper(request)
+	create
+	사용자가 작성한 글 댓글을 뽑아오는 함수
+- def login(request) 
+	create
+	AuthenticationsForm이라는 Django의 인증 Form을 사용하여 로그인 진행
+- def delete(request)
+	create
+	해당 글을 delete하는 함수 구현
+
+member > models.py
+class User(AbstractUser)
+	update
+	line 7 - 11 user_type을 selectField로 변경
+
+오후
+paging 버튼 변경하기 [v]
+delete 전 접속 사용자가 작성한 글이 맞는지 확인 작업(test하기) [v]
+git 올리기 [v]
